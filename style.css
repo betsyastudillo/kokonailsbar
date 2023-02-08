@@ -40,7 +40,7 @@ header img {
   align-self: center;
 }
 .header--title--container h1 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--black);
@@ -48,7 +48,7 @@ header img {
 }
 .header--title--container p {
   margin-top: 20px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--black);
@@ -79,4 +79,69 @@ header img {
   height: 8px;
   margin-left: 10px;
   background-image: url('./Assets/Vector.png');
+}
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--cream);
+}
+.main-exchange-container {
+  width: 100%;
+  height: auto;
+  padding-top: 17px;
+  text-align: center;
+}
+.main-exchange-container img {
+  width: 100%;
+  max-width: 900px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-exchange-container--title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.main-exchange-container--title p {
+  margin-top: 40px;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  color: var(--black);
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.main-tables-container {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+}
+.main-service--container {
+  width: auto;
+  min-width: 250px;
+  max-width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+.main-service--container table {
+  width: 100%;
+  height: 100%;
+}
+.main-service--container td {
+  width: 70%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: var(--white);
+  background-color: var(--secondary-pink);
+  opacity: 90%;
+}
+.main-service--container .table__top-left {
+  border-radius: 15px 0 0 0;
 }
