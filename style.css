@@ -135,13 +135,72 @@ main {
 }
 .main-service--container td {
   width: 70%;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.9rem;
   color: var(--white);
   background-color: var(--secondary-pink);
   opacity: 90%;
+  padding: 15px;
 }
 .main-service--container .table__top-left {
   border-radius: 15px 0 0 0;
+}
+.main-service--container .table__top-right {
+  border-radius: 0 15px 0 0;
+}
+.main-service--container .table__bottom-left {
+  border-radius: 0 0 0 15px;
+}
+.main-service--container .table__bottom-right {
+  border-radius: 0 0 15px 0;
+}
+.main-service--container .table__right {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+}
+.main-service--container .manos-pies {
+  display: inline-block;
+  width: 45px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-image: url(./Assets/manosypies.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-service--container .manos {
+  display: inline-block;
+  width: 45px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-image: url(./Assets/mano.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-service--container .pies {
+  display: inline-block;
+  width: 45px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-image: url(./Assets/pie.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-service--container .unia {
+  display: inline-block;
+  width: 45px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-image: url(./Assets/unia.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
