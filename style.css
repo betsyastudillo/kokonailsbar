@@ -105,6 +105,7 @@ main {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 50px;
   
 }
 .main-exchange-container--title p {
@@ -119,14 +120,14 @@ main {
   width: 70%;
   min-width: 235px;
   max-width: 500px;
-  height: 360px;
+  height: auto;
   margin: 0 auto;
 }
 .main-service--container {
   width: auto;
   min-width: 250px;
   max-width: 500px;
-  height: 400px;
+  height: auto;
   margin: 0 auto;
 }
 .main-service--container table {
@@ -140,7 +141,7 @@ main {
   line-height: 1.9rem;
   color: var(--white);
   background-color: var(--secondary-pink);
-  opacity: 90%;
+  opacity: 80%;
   padding: 15px;
 }
 .main-service--container .table__top-left {
@@ -160,47 +161,92 @@ main {
   font-weight: normal;
   line-height: 1.7rem;
 }
-.main-service--container .manos-pies {
+.main-service--container .icon-service {
   display: inline-block;
   width: 45px;
   height: 35px;
   margin-top: 10px;
   margin-left: 10px;
-  background-image: url(./Assets/manosypies.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.main-service--container .manos-pies {
+  background-image: url(./Assets/manosypies.png);
 }
 .main-service--container .manos {
-  display: inline-block;
-  width: 45px;
-  height: 35px;
-  margin-top: 10px;
-  margin-left: 10px;
   background-image: url(./Assets/mano.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main-service--container .pies {
-  display: inline-block;
-  width: 45px;
-  height: 40px;
-  margin-top: 10px;
-  margin-left: 10px;
   background-image: url(./Assets/pie.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main-service--container .unia {
-  display: inline-block;
-  width: 45px;
-  height: 35px;
-  margin-top: 10px;
-  margin-left: 10px;
   background-image: url(./Assets/unia.png);
-  background-size: cover;
+}
+.main-product-detail {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: #282623;
+}
+.product-detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.product-detail--title h2 {
+  margin-bottom: 30px;
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+}
+.product-detail--card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: auto;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--cream);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail--card .icon-card {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 10px;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+.product-detail--card .clock {
+  background-image: url(./Assets/RELOJ.png);
+}
+.product-detail--card .eye {
+  background-image: url(./Assets/ojo2.png);
+}
+.product-detail--card .cash {
+  background-image: url(./Assets/peso.png);
+}
+.product-card-title {
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+  text-transform: uppercase;
+}
+.product-card-body {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--black);
+  margin-bottom: 15px;
 }
