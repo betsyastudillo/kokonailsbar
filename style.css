@@ -178,6 +178,7 @@ main {
   background-image: url(./Assets/mano.png);
 }
 .main-service--container .pies {
+  height: 42px;
   background-image: url(./Assets/pie.png);
 }
 .main-service--container .unia {
