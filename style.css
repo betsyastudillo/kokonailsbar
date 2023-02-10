@@ -251,3 +251,23 @@ main {
   color: var(--black);
   margin-bottom: 15px;
 }
+.unia-img-container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 900px;
+  height: 50vh;
+  background-image: url(./Assets/img2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.unia-img-container h2 {
+  padding-top: 320px;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--white);
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.5px grey;
+}
