@@ -292,19 +292,28 @@ main {
   line-height: 2.6rem;
   color: var(--black);
 }
+.colaboradoras-container--slider {
+  display: flex;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
 .colaboradoras-container--card {
+  scroll-snap-align: center;
   width: 70%;
   min-width: 230px;
   max-width: 300px;
-  height: auto;
-  margin: 50px auto 0;
+  min-height: 210px;
+  margin: 50px 20px 10px 20px;
   padding: 0 15px;
   background-color: var(--primary-pink);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 .colaboradoras-card--title {
-  padding-top: 30px;
+  padding-top: 25px;
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.8rem;
