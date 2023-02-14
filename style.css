@@ -278,6 +278,7 @@ main {
   padding-bottom: 70px;
   text-align: center;
   background-color: var(--cream);
+  position: relative;
 }
 .colaboradoras--title {
   width: 90%;
@@ -298,15 +299,39 @@ main {
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+  margin: 0 30px;
 }
-
+.colaboradoras-icon--left, .colaboradoras-icon--right {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.colaboradoras-icon--left {
+  width: 24px;
+  height: 24px;
+  right: calc(100% - 6.5rem);
+  bottom: 20.5rem;
+  background-image: url(./Assets/Vector.izquierda.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.colaboradoras-icon--right {
+  width: 24px;
+  height: 24px;
+  left: calc(100% -  6.5rem);
+  bottom: 20.5rem;
+  background-image: url(./Assets/Vector.derecha.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .colaboradoras-container--card {
+  position: relative;
   scroll-snap-align: center;
   width: 70%;
-  min-width: 230px;
+  min-width: 190px;
   max-width: 300px;
   min-height: 210px;
-  margin: 50px 20px 10px 20px;
+  margin: 40px 15px 1px 5px;
   padding: 0 15px;
   background-color: var(--primary-pink);
   border-radius: 15px;
@@ -332,7 +357,7 @@ main {
 .colaboradoras-card--ca {
   width: 150px;
   height: 40px;
-  margin: 20px;
+  margin: 15px;
   border: 2px solid var(--secondary-pink);
   border-radius: 5px;
   color: var(--black);
