@@ -406,15 +406,19 @@ footer .icon_footer {
 }
 footer .icon_phone {
   background-image: url(./Assets/TEL-removebg-preview.png);
+  background-size: cover;
 }
 footer .icon_whatsapp {
   background-image: url(./Assets/WHATSAPP.png);
+  background-size: cover;
 }
 footer .icon_home {
   background-image: url(./Assets/CASA.png);
+  background-size: cover;
 }
 footer .icon_instagram {
   background-image: url(./Assets/INSTAG.png);
+  background-size: cover;
 }
 .right img {
   width: 100px;
