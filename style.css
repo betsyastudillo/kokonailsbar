@@ -136,12 +136,11 @@ main {
 }
 .main-service--container td {
   width: 70%;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
   color: var(--white);
   background-color: var(--secondary-pink);
-  opacity: 80%;
   padding: 15px;
 }
 .main-service--container .table__top-left {
@@ -157,7 +156,7 @@ main {
   border-radius: 0 0 15px 0;
 }
 .main-service--container .table__right {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: normal;
   line-height: 1.7rem;
 }
