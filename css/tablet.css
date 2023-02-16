@@ -1,7 +1,8 @@
 .unia-img-container {
-  height: 80vh;
+  width: 900px;
+  height: 800px;
   margin: 50px auto 10px auto;
-  padding-top: 250px;
+  padding-top: 350px;
 }
 .colaboradoras-container--slider {
   justify-content: center;
