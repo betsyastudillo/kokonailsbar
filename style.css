@@ -255,7 +255,6 @@ main {
 .unia-img-container {
   width: 100%;
   min-width: 320px;
-  max-width: 900px;
   height: 50vh;
   background-image: url(./Assets/img2.png);
   background-position: center;
